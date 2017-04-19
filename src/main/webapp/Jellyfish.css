@@ -1,0 +1,84 @@
+@CHARSET "ISO-8859-1";
+h1 {
+	color:red;
+	font-size:2dm
+}
+
+h2 {
+	color:red;
+	font-size:1.6dm
+}
+body{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size:14px;
+}
+
+h1,h2{
+	color:#000131;
+	background:#014ED0;
+	font-family: sans-serif;
+	border:solid 2px #000131; 
+	padding-left:4px;
+}
+
+h1,h2,header,.trivia{
+	border-radius:4px;
+}
+
+#div{
+	width:100%;
+	background: url('images/Jellyfish.jpg') #000131;
+	min-height:140px;
+	color:white;
+	padding:15px 10px 15px 210px;
+	box-sizing:border-box;
+	
+	line-height:90%;
+	background-repeat: no-repeat;	
+	font-size:65px;
+}
+
+header{
+	width:100%;
+	background: url('images/Jellyfish.jpg') #000131;
+	min-height:140px;
+	color:white;
+	padding:15px 10px 15px 210px;
+	box-sizing:border-box;
+	line-height:90%;
+	background-repeat: no-repeat;	
+	font-size:65px;
+}
+
+.trivia{
+	background:#C9D8F3;
+	margin-left:10px;
+	padding:4px;
+}
+
+.trivia ul{
+	margin: 0;
+}
+
+th{
+	text-align:left;
+}
+
+tbody tr:hover{
+	background:yellow
+}
+
+@media screen and (max-width : 700px){
+	header{
+	background-size:110px;
+	font-size:40px;
+	padding-left:114px;
+	min-height:90px;
+	}
+}
+
+@media print{
+	header{
+		display: none;
+	}
+}
