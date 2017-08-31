@@ -19,15 +19,16 @@ h1,h2{
 	font-family: sans-serif;
 	border:solid 2px #000131; 
 	padding-left:4px;
+	clear:both;
 }
 
 h1,h2,header,.trivia{
-	border-radius:4px;
+	border-radius:5px;
 }
 
 #div{
 	width:100%;
-	background: url('images/Jellyfish.jpg') #000131;
+	background: url('../../resources/images/Jellyfish.jpg') #000131;
 	min-height:140px;
 	color:white;
 	padding:15px 10px 15px 210px;
@@ -40,7 +41,7 @@ h1,h2,header,.trivia{
 
 header{
 	width:100%;
-	background: url('images/Jellyfish.jpg') #000131;
+	background: url('../../resources/images/Jellyfish.jpg') #000131;
 	min-height:140px;
 	color:white;
 	padding:15px 10px 15px 210px;
@@ -50,11 +51,21 @@ header{
 	font-size:65px;
 }
 
+.content{
+	float: left;
+	width: 60%;
+}
+
+.sidebar{
+	margin-left: 60%
+}
+
 .trivia{
 	background:#C9D8F3;
-	margin-left:10px;
-	margin-bottom:10px;
+	margin-left:5px;
+	margin-right:5px;
 	padding:4px;
+	margin-bottom:10px;
 }
 
 .trivia ul{
@@ -76,6 +87,17 @@ tbody tr:hover{
 	padding-left:114px;
 	min-height:90px;
 	}
+
+	.content{
+		float:none;
+		width: 100%;
+		overflow: auto;
+	}
+	
+	.sidebar{
+		margin-left: 0%
+	}
+
 }
 
 @media print{
