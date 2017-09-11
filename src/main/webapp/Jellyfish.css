@@ -28,7 +28,7 @@ h1,h2,header,.trivia{
 
 #div{
 	width:100%;
-	background: url('/images/Jellyfish.jpg') #000131;
+	background: url('images/Jellyfish.jpg') #000131;
 	min-height:140px;
 	color:white;
 	padding:15px 10px 15px 210px;
