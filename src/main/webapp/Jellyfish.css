@@ -55,6 +55,7 @@ header{
 	line-height:90%;
 	background-repeat: no-repeat;	
 	font-size:65px;
+	position:relative;
 }
 
 .content{
