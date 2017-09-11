@@ -15,8 +15,8 @@ body{
 
 #help{
 	position:absolute;
-	right:4px;
-	bottom:4px;
+	right:-4px;
+	bottom:-4px;
 } 
 
 h1,h2{
