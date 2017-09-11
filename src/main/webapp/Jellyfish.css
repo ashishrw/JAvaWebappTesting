@@ -13,6 +13,12 @@ body{
 	font-size:14px;
 }
 
+#help{
+	position:absolute;
+	right:4px;
+	bottom:4px;
+}
+
 h1,h2{
 	color:#000131;
 	background:#014ED0;
