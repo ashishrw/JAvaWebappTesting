@@ -14,9 +14,9 @@ body{
 }
 
 #help{
-	position:absolute;
+	position:fixed;
 	right:-4px;
-	bottom:-4px;
+	top:-4px;
 } 
 
 h1,h2{
